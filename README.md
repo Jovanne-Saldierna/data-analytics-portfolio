@@ -1,20 +1,27 @@
 # Data Analytics Portfolio – Jovanne Saldierna
 
-This repository contains analytics projects demonstrating skills in business intelligence, SQL analysis, data visualization, and product performance analysis.
+This repository contains analytics projects demonstrating skills in business intelligence, SQL analysis, data visualization, and product analytics.
 
-## Tools & Technologies 
+The projects below highlight real-world business analysis including revenue performance, customer retention, product conversion funnels, and cohort revenue modeling.
 
-- SQL
-- Tableau
-- Data Visualization
-- Product Analytics
-- Business Intelligence
-- Funnel Analysis
-- Customer Retention Analysis
+---
 
-## Projects
+# Tools & Technologies
 
-### Sales Performance Analytics Dashboard
+• SQL  
+• Tableau  
+• Business Intelligence  
+• Data Visualization  
+• Product Analytics  
+• Funnel Analysis  
+• Customer Retention Analysis  
+• Cohort Analysis  
+
+---
+
+# Projects
+
+## 1. Sales Performance Analytics Dashboard
 
 Interactive Tableau dashboards analyzing revenue drivers, profitability trends, and product performance across regions and customer segments.
 
@@ -22,29 +29,50 @@ Interactive Tableau dashboards analyzing revenue drivers, profitability trends, 
 
 ![Deep Dive Dashboard](sales-performance-tableau/deep-dive-dashboard.png)
 
-Key skills:
-- Tableau dashboard design
-- KPI reporting
-- Pareto analysis
-- profitability analysis
-- parameter-driven filtering
+Key skills demonstrated:
 
-### 2. Customer Churn Analysis
+• Tableau dashboard design  
+• KPI reporting  
+• Pareto analysis  
+• profitability analysis  
+• parameter-driven filtering  
+
+---
+
+## 2. Customer Churn Analysis
+
 SQL analysis focused on customer retention, churn risk, lifetime revenue, tenure segmentation, and inactivity-based churn logic.
 
-Key skills:
-- SQL
-- CTEs
-- window functions
-- churn analysis
-- customer segmentation
+Key skills demonstrated:
 
-### 3. Product Funnel Analysis
+• SQL aggregation and segmentation  
+• Common Table Expressions (CTEs)  
+• window functions  
+• churn risk identification  
+• customer lifetime value analysis  
+
+---
+
+## 3. Product Funnel Analysis
+
 SQL project analyzing user progression through a product conversion funnel to identify step-level conversion rates, drop-off points, and growth opportunities.
 
-Key skills:
-- SQL
-- funnel analysis
-- product analytics
-- conversion rate analysis
-- growth metrics
+Key skills demonstrated:
+
+• funnel conversion analysis  
+• user behavior modeling  
+• drop-off analysis  
+• growth metrics and product analytics  
+
+---
+
+## 4. Cohort Revenue Analysis
+
+SQL cohort analysis examining customer retention and lifetime revenue by acquisition month to evaluate long-term revenue trends and customer value.
+
+Key skills demonstrated:
+
+• cohort analysis  
+• retention modeling  
+• time-series revenue analysis  
+• customer lifecycle analytics
