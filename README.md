@@ -4,8 +4,13 @@ This repository contains analytics projects demonstrating skills in business int
 
 ## Projects
 
-### 1. Sales Performance Analytics Dashboard
+### Sales Performance Analytics Dashboard
+
 Interactive Tableau dashboards analyzing revenue drivers, profitability trends, and product performance across regions and customer segments.
+
+![Overview Dashboard](sales-performance-tableau/overview-dashboard.png)
+
+![Deep Dive Dashboard](sales-performance-tableau/deep-dive-dashboard.png)
 
 Key skills:
 - Tableau dashboard design
