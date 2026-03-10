@@ -2,6 +2,16 @@
 
 This repository contains analytics projects demonstrating skills in business intelligence, SQL analysis, data visualization, and product performance analysis.
 
+## Tools & Technologies 
+
+- SQL
+- Tableau
+- Data Visualization
+- Product Analytics
+- Business Intelligence
+- Funnel Analysis
+- Customer Retention Analysis
+
 ## Projects
 
 ### Sales Performance Analytics Dashboard
