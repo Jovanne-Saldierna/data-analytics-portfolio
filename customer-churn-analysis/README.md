@@ -1,47 +1,56 @@
 # Customer Churn Analysis
 
-Customer retention is a critical driver of long-term business growth. This project explores customer churn patterns to identify factors that influence customer retention and revenue stability.
+This project explores customer retention patterns using SQL to identify churn risk, customer value, and revenue concentration across segments.
 
 ## Business Problem
 
-Acquiring new customers is often significantly more expensive than retaining existing ones. Businesses therefore benefit from understanding which customers are most likely to churn and what behavioral patterns predict churn risk.
+Customer retention is one of the most important drivers of long-term revenue performance. Acquiring new customers is often more expensive than retaining existing ones, making churn analysis critical for sustainable growth.
 
-This analysis investigates:
+This analysis was designed to answer several key business questions:
 
-- Which customer segments experience the highest churn rates
-  
-- How customer tenure impacts churn behavior
-  
-- Whether purchasing patterns indicate potential churn risk
+- Which customers generate the most lifetime revenue?
+- How does customer tenure relate to retention and revenue contribution?
+- Which customer segments are most at risk of churn?
+- How does inactive customer behavior affect revenue stability?
 
 ## Analytical Approach
 
-The analysis uses SQL queries to explore customer transaction data and calculate churn metrics including:
+The project uses SQL to analyze customer transaction behavior and evaluate churn-related patterns across revenue, tenure, and order activity.
 
-- Customer lifetime value
+Key analyses include:
 
-- Customer tenure distribution
+- Customer lifetime revenue and order volume
+- Customer tenure calculation
+- Revenue by customer segment
+- Monthly active customer trends
+- Churn flagging using inactivity thresholds
+- Revenue ranking with window functions
+- Customer tenure segmentation with CTEs
 
-- Retention and churn rates
+## SQL Techniques Demonstrated
 
-- Revenue contribution from retained customers
+- Aggregate analysis
+- Common Table Expressions (CTEs)
+- Window functions
+- Conditional logic with CASE statements
+- Churn flagging based on inactivity thresholds
+- Segmentation analysis
+- Join-based query structure
 
 ## Key Insights
 
-- Customers with shorter tenure exhibit significantly higher churn probability
-
-- Repeat purchase behavior strongly correlates with long-term retention
-
-- A small subset of high-value customers contributes a disproportionate share of revenue
+- Customers with shorter tenure are more likely to churn earlier in the lifecycle
+- A relatively small set of customers contributes a disproportionate share of total revenue
+- Revenue stability depends heavily on retaining repeat purchasers
+- Customer inactivity thresholds can be used to identify churn risk before full customer loss occurs
 
 ## Business Recommendations
 
-- Implement targeted retention strategies for new customers during early lifecycle stages
+- Prioritize retention efforts during the early customer lifecycle
+- Create targeted programs for high-value customers with strong lifetime revenue
+- Monitor inactivity windows as early warning signals for churn
+- Use revenue concentration analysis to identify customers with outsized business impact
 
-- Identify high-value customers for loyalty and engagement programs
+## Files
 
-- Monitor purchasing frequency as an early churn indicator
-
-## Tools Used
-
-SQL, data analysis, customer analytics
+- `churn-analysis.sql` — SQL queries for customer retention, segmentation, and churn analysis
